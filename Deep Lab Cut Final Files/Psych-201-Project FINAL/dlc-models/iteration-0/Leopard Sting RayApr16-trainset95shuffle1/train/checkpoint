@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/drive/My Drive/Psych-201-Project/dlc-models/iteration-0/Leopard Sting RayApr16-trainset95shuffle1/train/snapshot-200000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Psych-201-Project/dlc-models/iteration-0/Leopard Sting RayApr16-trainset95shuffle1/train/snapshot-196000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Psych-201-Project/dlc-models/iteration-0/Leopard Sting RayApr16-trainset95shuffle1/train/snapshot-197000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Psych-201-Project/dlc-models/iteration-0/Leopard Sting RayApr16-trainset95shuffle1/train/snapshot-198000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Psych-201-Project/dlc-models/iteration-0/Leopard Sting RayApr16-trainset95shuffle1/train/snapshot-199000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Psych-201-Project/dlc-models/iteration-0/Leopard Sting RayApr16-trainset95shuffle1/train/snapshot-200000"

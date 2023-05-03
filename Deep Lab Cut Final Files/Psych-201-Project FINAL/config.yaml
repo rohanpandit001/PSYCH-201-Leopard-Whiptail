@@ -1,0 +1,145 @@
+    # Project definitions (do not edit)
+Task: Leopard Sting Ray
+scorer: Rohan Pandit
+date: Apr16
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /content/drive/My Drive/Psych-201-Project
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9474.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9475.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9476.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9477.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9478.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9479.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9481.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9483.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9484.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9485.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9486.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9488.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9490.mov:
+    crop: 0, 320, 0, 568
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9491.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9492.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9493.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9495.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9497.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9467.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9468.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9469.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9470.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9471.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9472.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9473.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9480.mov:
+    crop: 0, 720, 0, 1280
+  C:\Users\rohan\Desktop\Leopard Sting Ray-Rohan Pandit-2023-04-16\videos\IMG_9489.mov:
+    crop: 0, 720, 0, 1280
+bodyparts:
+- Snout
+- Spiracle
+- Pectoral Fin
+- Tail
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - Snout
+  - Spiracle
+- - Pectoral Fin
+  - Tail
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

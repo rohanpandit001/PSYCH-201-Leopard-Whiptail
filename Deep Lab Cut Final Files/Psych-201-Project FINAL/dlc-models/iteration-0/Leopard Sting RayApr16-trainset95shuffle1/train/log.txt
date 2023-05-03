@@ -1,0 +1,677 @@
+2023-04-30 15:36:34 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard '
+                'Sting RayApr16/Documentation_data-Leopard Sting '
+                'Ray_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/drive/My Drive/Psych-201-Project',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-04-30 15:37:51 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard '
+                'Sting RayApr16/Documentation_data-Leopard Sting '
+                'Ray_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/drive/My Drive/Psych-201-Project',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-04-30 15:46:10 iteration: 1000 loss: 0.0268 lr: 0.005
+2023-04-30 15:49:22 iteration: 2000 loss: 0.0185 lr: 0.005
+2023-04-30 15:52:02 iteration: 3000 loss: 0.0163 lr: 0.005
+2023-04-30 15:54:28 iteration: 4000 loss: 0.0140 lr: 0.005
+2023-04-30 15:56:55 iteration: 5000 loss: 0.0137 lr: 0.005
+2023-04-30 15:59:15 iteration: 6000 loss: 0.0120 lr: 0.005
+2023-04-30 16:01:35 iteration: 7000 loss: 0.0118 lr: 0.005
+2023-04-30 16:03:56 iteration: 8000 loss: 0.0113 lr: 0.005
+2023-04-30 16:06:16 iteration: 9000 loss: 0.0110 lr: 0.005
+2023-04-30 16:08:46 iteration: 10000 loss: 0.0104 lr: 0.005
+2023-04-30 16:11:05 iteration: 11000 loss: 0.0125 lr: 0.02
+2023-04-30 16:13:28 iteration: 12000 loss: 0.0113 lr: 0.02
+2023-04-30 16:15:47 iteration: 13000 loss: 0.0103 lr: 0.02
+2023-04-30 16:18:06 iteration: 14000 loss: 0.0095 lr: 0.02
+2023-04-30 16:20:22 iteration: 15000 loss: 0.0092 lr: 0.02
+2023-04-30 16:22:39 iteration: 16000 loss: 0.0086 lr: 0.02
+2023-04-30 16:24:56 iteration: 17000 loss: 0.0086 lr: 0.02
+2023-04-30 16:27:16 iteration: 18000 loss: 0.0084 lr: 0.02
+2023-04-30 16:29:37 iteration: 19000 loss: 0.0082 lr: 0.02
+2023-04-30 16:31:58 iteration: 20000 loss: 0.0080 lr: 0.02
+2023-04-30 16:34:15 iteration: 21000 loss: 0.0078 lr: 0.02
+2023-04-30 16:36:32 iteration: 22000 loss: 0.0074 lr: 0.02
+2023-04-30 16:38:48 iteration: 23000 loss: 0.0072 lr: 0.02
+2023-04-30 16:41:05 iteration: 24000 loss: 0.0073 lr: 0.02
+2023-04-30 16:43:23 iteration: 25000 loss: 0.0069 lr: 0.02
+2023-04-30 16:45:40 iteration: 26000 loss: 0.0069 lr: 0.02
+2023-04-30 16:47:58 iteration: 27000 loss: 0.0068 lr: 0.02
+2023-04-30 16:50:16 iteration: 28000 loss: 0.0067 lr: 0.02
+2023-04-30 16:52:32 iteration: 29000 loss: 0.0063 lr: 0.02
+2023-04-30 16:54:52 iteration: 30000 loss: 0.0064 lr: 0.02
+2023-04-30 16:57:09 iteration: 31000 loss: 0.0063 lr: 0.02
+2023-04-30 16:59:30 iteration: 32000 loss: 0.0061 lr: 0.02
+2023-04-30 17:01:48 iteration: 33000 loss: 0.0061 lr: 0.02
+2023-04-30 17:04:04 iteration: 34000 loss: 0.0062 lr: 0.02
+2023-04-30 17:06:24 iteration: 35000 loss: 0.0060 lr: 0.02
+2023-04-30 17:08:38 iteration: 36000 loss: 0.0058 lr: 0.02
+2023-04-30 17:10:54 iteration: 37000 loss: 0.0055 lr: 0.02
+2023-04-30 17:13:09 iteration: 38000 loss: 0.0056 lr: 0.02
+2023-04-30 17:15:29 iteration: 39000 loss: 0.0057 lr: 0.02
+2023-04-30 17:17:47 iteration: 40000 loss: 0.0055 lr: 0.02
+2023-04-30 17:20:07 iteration: 41000 loss: 0.0055 lr: 0.02
+2023-04-30 17:22:24 iteration: 42000 loss: 0.0054 lr: 0.02
+2023-04-30 17:24:43 iteration: 43000 loss: 0.0054 lr: 0.02
+2023-04-30 17:27:00 iteration: 44000 loss: 0.0054 lr: 0.02
+2023-04-30 17:29:19 iteration: 45000 loss: 0.0053 lr: 0.02
+2023-04-30 17:31:37 iteration: 46000 loss: 0.0054 lr: 0.02
+2023-04-30 17:33:56 iteration: 47000 loss: 0.0053 lr: 0.02
+2023-04-30 17:36:14 iteration: 48000 loss: 0.0053 lr: 0.02
+2023-04-30 17:38:31 iteration: 49000 loss: 0.0051 lr: 0.02
+2023-04-30 17:40:51 iteration: 50000 loss: 0.0054 lr: 0.02
+2023-04-30 17:43:08 iteration: 51000 loss: 0.0052 lr: 0.02
+2023-04-30 17:57:46 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard '
+                'Sting RayApr16/Documentation_data-Leopard Sting '
+                'Ray_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/drive/My Drive/Psych-201-Project',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-04-30 18:07:21 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard '
+                'Sting RayApr16/Documentation_data-Leopard Sting '
+                'Ray_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/drive/My Drive/Psych-201-Project',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-04-30 20:13:56 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard '
+                'Sting RayApr16/Documentation_data-Leopard Sting '
+                'Ray_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/drive/My Drive/Psych-201-Project',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-04-30 20:19:30 iteration: 1000 loss: 0.0265 lr: 0.005
+2023-04-30 20:21:10 iteration: 2000 loss: 0.0189 lr: 0.005
+2023-04-30 20:22:33 iteration: 3000 loss: 0.0168 lr: 0.005
+2023-04-30 20:23:51 iteration: 4000 loss: 0.0143 lr: 0.005
+2023-04-30 20:25:09 iteration: 5000 loss: 0.0141 lr: 0.005
+2023-04-30 20:26:29 iteration: 6000 loss: 0.0126 lr: 0.005
+2023-04-30 20:27:49 iteration: 7000 loss: 0.0121 lr: 0.005
+2023-04-30 20:29:08 iteration: 8000 loss: 0.0118 lr: 0.005
+2023-04-30 20:30:27 iteration: 9000 loss: 0.0113 lr: 0.005
+2023-04-30 20:31:45 iteration: 10000 loss: 0.0107 lr: 0.005
+2023-04-30 20:33:05 iteration: 11000 loss: 0.0129 lr: 0.02
+2023-04-30 20:34:25 iteration: 12000 loss: 0.0115 lr: 0.02
+2023-04-30 20:35:45 iteration: 13000 loss: 0.0106 lr: 0.02
+2023-04-30 20:37:05 iteration: 14000 loss: 0.0098 lr: 0.02
+2023-04-30 20:38:25 iteration: 15000 loss: 0.0092 lr: 0.02
+2023-04-30 20:39:45 iteration: 16000 loss: 0.0088 lr: 0.02
+2023-04-30 20:41:02 iteration: 17000 loss: 0.0087 lr: 0.02
+2023-04-30 20:42:21 iteration: 18000 loss: 0.0086 lr: 0.02
+2023-04-30 20:43:41 iteration: 19000 loss: 0.0083 lr: 0.02
+2023-04-30 20:45:01 iteration: 20000 loss: 0.0083 lr: 0.02
+2023-04-30 20:46:19 iteration: 21000 loss: 0.0079 lr: 0.02
+2023-04-30 20:47:37 iteration: 22000 loss: 0.0076 lr: 0.02
+2023-04-30 20:48:55 iteration: 23000 loss: 0.0073 lr: 0.02
+2023-04-30 20:50:13 iteration: 24000 loss: 0.0075 lr: 0.02
+2023-04-30 20:51:31 iteration: 25000 loss: 0.0070 lr: 0.02
+2023-04-30 20:52:50 iteration: 26000 loss: 0.0070 lr: 0.02
+2023-04-30 20:54:08 iteration: 27000 loss: 0.0071 lr: 0.02
+2023-04-30 20:55:27 iteration: 28000 loss: 0.0068 lr: 0.02
+2023-04-30 20:56:45 iteration: 29000 loss: 0.0064 lr: 0.02
+2023-04-30 20:58:04 iteration: 30000 loss: 0.0064 lr: 0.02
+2023-04-30 20:59:23 iteration: 31000 loss: 0.0063 lr: 0.02
+2023-04-30 21:00:40 iteration: 32000 loss: 0.0062 lr: 0.02
+2023-04-30 21:02:00 iteration: 33000 loss: 0.0063 lr: 0.02
+2023-04-30 21:03:19 iteration: 34000 loss: 0.0063 lr: 0.02
+2023-04-30 21:04:37 iteration: 35000 loss: 0.0061 lr: 0.02
+2023-04-30 21:05:56 iteration: 36000 loss: 0.0059 lr: 0.02
+2023-04-30 21:07:15 iteration: 37000 loss: 0.0057 lr: 0.02
+2023-04-30 21:08:33 iteration: 38000 loss: 0.0057 lr: 0.02
+2023-04-30 21:09:52 iteration: 39000 loss: 0.0058 lr: 0.02
+2023-04-30 21:11:12 iteration: 40000 loss: 0.0056 lr: 0.02
+2023-04-30 21:12:30 iteration: 41000 loss: 0.0056 lr: 0.02
+2023-04-30 21:13:49 iteration: 42000 loss: 0.0056 lr: 0.02
+2023-04-30 21:15:09 iteration: 43000 loss: 0.0055 lr: 0.02
+2023-04-30 21:16:28 iteration: 44000 loss: 0.0056 lr: 0.02
+2023-04-30 21:17:47 iteration: 45000 loss: 0.0054 lr: 0.02
+2023-04-30 21:19:06 iteration: 46000 loss: 0.0055 lr: 0.02
+2023-04-30 21:20:25 iteration: 47000 loss: 0.0053 lr: 0.02
+2023-04-30 21:21:43 iteration: 48000 loss: 0.0054 lr: 0.02
+2023-04-30 21:23:03 iteration: 49000 loss: 0.0051 lr: 0.02
+2023-04-30 21:24:21 iteration: 50000 loss: 0.0055 lr: 0.02
+2023-04-30 21:25:39 iteration: 51000 loss: 0.0053 lr: 0.02
+2023-04-30 21:26:57 iteration: 52000 loss: 0.0051 lr: 0.02
+2023-04-30 21:28:17 iteration: 53000 loss: 0.0051 lr: 0.02
+2023-04-30 21:29:36 iteration: 54000 loss: 0.0048 lr: 0.02
+2023-04-30 21:30:54 iteration: 55000 loss: 0.0051 lr: 0.02
+2023-04-30 21:32:12 iteration: 56000 loss: 0.0047 lr: 0.02
+2023-04-30 21:33:31 iteration: 57000 loss: 0.0048 lr: 0.02
+2023-04-30 21:34:50 iteration: 58000 loss: 0.0048 lr: 0.02
+2023-04-30 21:36:08 iteration: 59000 loss: 0.0048 lr: 0.02
+2023-04-30 21:37:26 iteration: 60000 loss: 0.0048 lr: 0.02
+2023-04-30 21:38:45 iteration: 61000 loss: 0.0047 lr: 0.02
+2023-04-30 21:40:03 iteration: 62000 loss: 0.0047 lr: 0.02
+2023-04-30 21:41:20 iteration: 63000 loss: 0.0046 lr: 0.02
+2023-04-30 21:42:38 iteration: 64000 loss: 0.0045 lr: 0.02
+2023-04-30 21:43:56 iteration: 65000 loss: 0.0047 lr: 0.02
+2023-04-30 21:45:15 iteration: 66000 loss: 0.0046 lr: 0.02
+2023-04-30 21:46:34 iteration: 67000 loss: 0.0047 lr: 0.02
+2023-04-30 21:47:52 iteration: 68000 loss: 0.0046 lr: 0.02
+2023-04-30 21:49:12 iteration: 69000 loss: 0.0045 lr: 0.02
+2023-04-30 21:50:31 iteration: 70000 loss: 0.0046 lr: 0.02
+2023-04-30 21:51:49 iteration: 71000 loss: 0.0045 lr: 0.02
+2023-04-30 21:53:07 iteration: 72000 loss: 0.0045 lr: 0.02
+2023-04-30 21:54:25 iteration: 73000 loss: 0.0043 lr: 0.02
+2023-04-30 21:55:44 iteration: 74000 loss: 0.0044 lr: 0.02
+2023-04-30 21:57:03 iteration: 75000 loss: 0.0045 lr: 0.02
+2023-04-30 21:58:23 iteration: 76000 loss: 0.0043 lr: 0.02
+2023-04-30 21:59:42 iteration: 77000 loss: 0.0042 lr: 0.02
+2023-04-30 22:01:00 iteration: 78000 loss: 0.0045 lr: 0.02
+2023-04-30 22:02:20 iteration: 79000 loss: 0.0042 lr: 0.02
+2023-04-30 22:03:39 iteration: 80000 loss: 0.0044 lr: 0.02
+2023-04-30 22:04:58 iteration: 81000 loss: 0.0043 lr: 0.02
+2023-04-30 22:06:17 iteration: 82000 loss: 0.0042 lr: 0.02
+2023-04-30 22:07:36 iteration: 83000 loss: 0.0041 lr: 0.02
+2023-04-30 22:08:56 iteration: 84000 loss: 0.0042 lr: 0.02
+2023-04-30 22:10:13 iteration: 85000 loss: 0.0041 lr: 0.02
+2023-04-30 22:11:33 iteration: 86000 loss: 0.0040 lr: 0.02
+2023-04-30 22:12:50 iteration: 87000 loss: 0.0041 lr: 0.02
+2023-04-30 22:14:08 iteration: 88000 loss: 0.0041 lr: 0.02
+2023-04-30 22:15:26 iteration: 89000 loss: 0.0040 lr: 0.02
+2023-04-30 22:16:46 iteration: 90000 loss: 0.0040 lr: 0.02
+2023-04-30 22:18:03 iteration: 91000 loss: 0.0040 lr: 0.02
+2023-04-30 22:19:21 iteration: 92000 loss: 0.0041 lr: 0.02
+2023-04-30 22:20:39 iteration: 93000 loss: 0.0039 lr: 0.02
+2023-04-30 22:21:58 iteration: 94000 loss: 0.0039 lr: 0.02
+2023-04-30 22:23:18 iteration: 95000 loss: 0.0039 lr: 0.02
+2023-04-30 22:24:36 iteration: 96000 loss: 0.0039 lr: 0.02
+2023-04-30 22:25:54 iteration: 97000 loss: 0.0038 lr: 0.02
+2023-04-30 22:27:13 iteration: 98000 loss: 0.0040 lr: 0.02
+2023-04-30 22:28:30 iteration: 99000 loss: 0.0039 lr: 0.02
+2023-04-30 22:29:48 iteration: 100000 loss: 0.0039 lr: 0.02
+2023-04-30 22:31:07 iteration: 101000 loss: 0.0038 lr: 0.02
+2023-04-30 22:32:25 iteration: 102000 loss: 0.0040 lr: 0.02
+2023-04-30 22:33:44 iteration: 103000 loss: 0.0039 lr: 0.02
+2023-04-30 22:35:02 iteration: 104000 loss: 0.0038 lr: 0.02
+2023-04-30 22:36:21 iteration: 105000 loss: 0.0037 lr: 0.02
+2023-04-30 22:37:38 iteration: 106000 loss: 0.0038 lr: 0.02
+2023-04-30 22:38:57 iteration: 107000 loss: 0.0038 lr: 0.02
+2023-04-30 22:40:16 iteration: 108000 loss: 0.0037 lr: 0.02
+2023-04-30 22:41:35 iteration: 109000 loss: 0.0037 lr: 0.02
+2023-04-30 22:42:54 iteration: 110000 loss: 0.0037 lr: 0.02
+2023-04-30 22:44:13 iteration: 111000 loss: 0.0037 lr: 0.02
+2023-04-30 22:45:33 iteration: 112000 loss: 0.0037 lr: 0.02
+2023-04-30 22:46:52 iteration: 113000 loss: 0.0037 lr: 0.02
+2023-04-30 22:48:10 iteration: 114000 loss: 0.0037 lr: 0.02
+2023-04-30 22:49:28 iteration: 115000 loss: 0.0036 lr: 0.02
+2023-04-30 22:50:46 iteration: 116000 loss: 0.0037 lr: 0.02
+2023-04-30 22:52:05 iteration: 117000 loss: 0.0037 lr: 0.02
+2023-04-30 22:53:23 iteration: 118000 loss: 0.0035 lr: 0.02
+2023-04-30 22:54:43 iteration: 119000 loss: 0.0036 lr: 0.02
+2023-04-30 22:56:02 iteration: 120000 loss: 0.0038 lr: 0.02
+2023-04-30 22:57:21 iteration: 121000 loss: 0.0037 lr: 0.02
+2023-04-30 22:58:41 iteration: 122000 loss: 0.0036 lr: 0.02
+2023-04-30 23:00:00 iteration: 123000 loss: 0.0038 lr: 0.02
+2023-04-30 23:01:20 iteration: 124000 loss: 0.0037 lr: 0.02
+2023-04-30 23:02:38 iteration: 125000 loss: 0.0036 lr: 0.02
+2023-04-30 23:03:57 iteration: 126000 loss: 0.0034 lr: 0.02
+2023-04-30 23:05:15 iteration: 127000 loss: 0.0034 lr: 0.02
+2023-04-30 23:06:34 iteration: 128000 loss: 0.0034 lr: 0.02
+2023-04-30 23:07:52 iteration: 129000 loss: 0.0035 lr: 0.02
+2023-04-30 23:09:12 iteration: 130000 loss: 0.0035 lr: 0.02
+2023-04-30 23:10:30 iteration: 131000 loss: 0.0034 lr: 0.02
+2023-04-30 23:11:51 iteration: 132000 loss: 0.0035 lr: 0.02
+2023-04-30 23:13:12 iteration: 133000 loss: 0.0035 lr: 0.02
+2023-04-30 23:14:33 iteration: 134000 loss: 0.0034 lr: 0.02
+2023-04-30 23:15:52 iteration: 135000 loss: 0.0036 lr: 0.02
+2023-04-30 23:17:11 iteration: 136000 loss: 0.0035 lr: 0.02
+2023-04-30 23:18:30 iteration: 137000 loss: 0.0034 lr: 0.02
+2023-04-30 23:19:49 iteration: 138000 loss: 0.0032 lr: 0.02
+2023-04-30 23:21:08 iteration: 139000 loss: 0.0034 lr: 0.02
+2023-04-30 23:22:27 iteration: 140000 loss: 0.0034 lr: 0.02
+2023-04-30 23:23:46 iteration: 141000 loss: 0.0035 lr: 0.02
+2023-04-30 23:25:04 iteration: 142000 loss: 0.0032 lr: 0.02
+2023-04-30 23:26:24 iteration: 143000 loss: 0.0034 lr: 0.02
+2023-04-30 23:27:44 iteration: 144000 loss: 0.0033 lr: 0.02
+2023-04-30 23:29:03 iteration: 145000 loss: 0.0033 lr: 0.02
+2023-04-30 23:30:20 iteration: 146000 loss: 0.0033 lr: 0.02
+2023-04-30 23:31:38 iteration: 147000 loss: 0.0033 lr: 0.02
+2023-04-30 23:32:58 iteration: 148000 loss: 0.0033 lr: 0.02
+2023-04-30 23:34:18 iteration: 149000 loss: 0.0033 lr: 0.02
+2023-04-30 23:35:37 iteration: 150000 loss: 0.0034 lr: 0.02
+2023-04-30 23:36:57 iteration: 151000 loss: 0.0032 lr: 0.02
+2023-04-30 23:38:19 iteration: 152000 loss: 0.0033 lr: 0.02
+2023-04-30 23:39:38 iteration: 153000 loss: 0.0033 lr: 0.02
+2023-04-30 23:40:57 iteration: 154000 loss: 0.0032 lr: 0.02
+2023-04-30 23:42:17 iteration: 155000 loss: 0.0033 lr: 0.02
+2023-04-30 23:43:35 iteration: 156000 loss: 0.0032 lr: 0.02
+2023-04-30 23:44:54 iteration: 157000 loss: 0.0032 lr: 0.02
+2023-04-30 23:46:13 iteration: 158000 loss: 0.0033 lr: 0.02
+2023-04-30 23:47:31 iteration: 159000 loss: 0.0033 lr: 0.02
+2023-04-30 23:48:50 iteration: 160000 loss: 0.0032 lr: 0.02
+2023-04-30 23:50:08 iteration: 161000 loss: 0.0032 lr: 0.02
+2023-04-30 23:51:27 iteration: 162000 loss: 0.0031 lr: 0.02
+2023-04-30 23:52:45 iteration: 163000 loss: 0.0032 lr: 0.02
+2023-04-30 23:54:03 iteration: 164000 loss: 0.0030 lr: 0.02
+2023-04-30 23:55:22 iteration: 165000 loss: 0.0031 lr: 0.02
+2023-04-30 23:56:40 iteration: 166000 loss: 0.0032 lr: 0.02
+2023-04-30 23:57:59 iteration: 167000 loss: 0.0031 lr: 0.02
+2023-04-30 23:59:21 iteration: 168000 loss: 0.0032 lr: 0.02
+2023-05-01 00:00:41 iteration: 169000 loss: 0.0032 lr: 0.02
+2023-05-01 00:02:01 iteration: 170000 loss: 0.0032 lr: 0.02
+2023-05-01 00:03:20 iteration: 171000 loss: 0.0031 lr: 0.02
+2023-05-01 00:04:38 iteration: 172000 loss: 0.0032 lr: 0.02
+2023-05-01 00:05:58 iteration: 173000 loss: 0.0031 lr: 0.02
+2023-05-01 00:07:18 iteration: 174000 loss: 0.0031 lr: 0.02
+2023-05-01 00:08:36 iteration: 175000 loss: 0.0032 lr: 0.02
+2023-05-01 00:09:56 iteration: 176000 loss: 0.0032 lr: 0.02
+2023-05-01 00:11:13 iteration: 177000 loss: 0.0030 lr: 0.02
+2023-05-01 00:12:33 iteration: 178000 loss: 0.0031 lr: 0.02
+2023-05-01 00:13:53 iteration: 179000 loss: 0.0032 lr: 0.02
+2023-05-01 00:15:11 iteration: 180000 loss: 0.0032 lr: 0.02
+2023-05-01 00:16:29 iteration: 181000 loss: 0.0029 lr: 0.02
+2023-05-01 00:17:48 iteration: 182000 loss: 0.0030 lr: 0.02
+2023-05-01 00:19:06 iteration: 183000 loss: 0.0030 lr: 0.02
+2023-05-01 00:20:25 iteration: 184000 loss: 0.0029 lr: 0.02
+2023-05-01 00:21:42 iteration: 185000 loss: 0.0030 lr: 0.02
+2023-05-01 00:23:02 iteration: 186000 loss: 0.0030 lr: 0.02
+2023-05-01 00:24:19 iteration: 187000 loss: 0.0030 lr: 0.02
+2023-05-01 00:25:39 iteration: 188000 loss: 0.0031 lr: 0.02
+2023-05-01 00:26:59 iteration: 189000 loss: 0.0030 lr: 0.02
+2023-05-01 00:28:17 iteration: 190000 loss: 0.0029 lr: 0.02
+2023-05-01 00:29:36 iteration: 191000 loss: 0.0029 lr: 0.02
+2023-05-01 00:30:56 iteration: 192000 loss: 0.0030 lr: 0.02
+2023-05-01 00:32:15 iteration: 193000 loss: 0.0029 lr: 0.02
+2023-05-01 00:33:35 iteration: 194000 loss: 0.0030 lr: 0.02
+2023-05-01 00:34:53 iteration: 195000 loss: 0.0029 lr: 0.02
+2023-05-01 00:36:13 iteration: 196000 loss: 0.0028 lr: 0.02
+2023-05-01 00:37:32 iteration: 197000 loss: 0.0029 lr: 0.02
+2023-05-01 00:38:51 iteration: 198000 loss: 0.0030 lr: 0.02
+2023-05-01 00:40:10 iteration: 199000 loss: 0.0028 lr: 0.02
+2023-05-01 00:41:30 iteration: 200000 loss: 0.0030 lr: 0.02
+2023-05-01 00:57:59 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2023-05-01 02:42:53 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['Snout', 'Spiracle', 'Pectoral Fin', 'Tail'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_Leopard Sting '
+            'RayApr16/Leopard Sting Ray_Rohan Pandit95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/My '
+                    'Drive/Psych-201-Project/dlc-models/iteration-0/Leopard '
+                    'Sting RayApr16-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
