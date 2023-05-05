@@ -11,6 +11,8 @@ The animal we will be studying in this project is the Leopard Whipray (Himantura
 
 
 
+
+
 Article #1: Genetic and Physical Differences within the Himantura uarnak complex
 Hypothesis: The hypothesis of this experiment is to determine which of the two species in the H. Leoparda family should continue to hold the name based on spotting patterns, and determine the nucleotide synapomorphies in the partial COI gene sequence that distinguish species within the H. uarnak species complex
 Independent variables: 
@@ -56,8 +58,6 @@ Summary: The researcher initially predicted that the rays would be found in the 
 -Control: The controls are prey abundance and predator abundance.
 -Independant: The independent variable is the water temperature.
 -Dependent: The dependent variable that we are measuring is ray abundance and behavior.
-
-
 
 Critique:
 Confounds- 
@@ -116,8 +116,6 @@ Article #5 https://www.proquest.com/docview/2525730081?pq-origsite=gscholar&from
 
 -Dependent: the dependent variable is the biodiversity of Class Chondrichthyes (sharks and rays) in the Banggai Marine Protected Area (MPA) in Indonesia.
 
-
-
 Critique:
 Confounds- The efficiency of eDNA may be high however the accuracy may be low as there is a very wide range of species to cover. Some factors that may affect accuracy are quality samples of water, and seasonal changes that affect the water. 
 
@@ -146,14 +144,14 @@ Reproduction and Conservation Status: Leopard Whiprays are ovoviviparous, which 
 
 Fun Fact: One of the fascinating aspects of the Leopard Whipray is its ability to "walk" along the seafloor. It uses its highly flexible pectoral fins to propel itself forward in a unique walking motion, which allows it to navigate through its complex and shallow habitats more efficiently than swimming. This fascinating adaptation also helps the ray conserve energy and search for food more effectively.
 
-References:
-Leopard Whipray (Himantura Leoparda). iNaturalist. (n.d.). Retrieved May 2, 2023, from https://www.inaturalist.org/taxa/188808-Himantura-leoparda 
-Leopard Whipray. Georgia Aquarium. (2022, November 16). Retrieved May 2, 2023, from https://www.georgiaaquarium.org/animal/leopard-whipray/ 
-
-
 Data Collection: To Collect the necessary video data of the Leopard Whipray, we visited the New England Aquarium and different days and at times. Due to how endangered these animals are, and their docile nature, collecting video evidence posed quite a difficulty for our group. We were only able to see the Himantura Leoparda once a week as that is when they were shown. Most of the animal’s anatomy is on the bottom of their bodies, however, they tend to “walk” on the ocean floor and even after spending weeks and several hours a day trying to document their full body, it was near impossible.
 
-
+Research design:
+A hypothesis could be that certain elasmobranch species may display unusual determination to the high levels of fishing pressure and environmental changes in the Bay of Bengal of Bangladesh.
+Sampling design: The first step would be to design a sampling strategy to collect data on elasmobranch diversity, species composition, catch, and trade within the artisanal fisheries in the Bay of Bengal of Bangladesh. This could involve selecting specific fishing locations or ports, and determining the sample size and frequency of data collection.
+Data collection: Once the sampling design is established, data can be collected through a combination of methods, such as onboard observer programs, market surveys, interviews with fishers, and DNA barcoding of species samples.
+Data analysis: The collected data can be analyzed to determine the diversity, species composition, catch, and trade of elasmobranchs in the artisanal fisheries of the Bay of Bengal of Bangladesh. Statistical analyses such as species accumulation curves, diversity indices, and multivariate analyses can be used to assess the variation in species diversity and composition across different fishing locations or seasons.
+Interpretation and communication of results: The final step would involve interpreting the results of the data analysis and communicating the findings to stakeholders such as fishers, fishery managers, and policymakers. The results could inform the development of management plans and conservation strategies for elasmobranchs in the Bay of Bengal of Bangladesh, and help to address the critical knowledge gap in this region.
 
 In article one “Genetic and Physical Differences within the Himantura uarnak complex”, the author talks about the Leopard Whipray, Himantura Leoparda  contains two different genetically isolated species which are labeled as ‘Cluster 1’ and ‘Cluster 4’. They continue to write about how you tell the difference by the spotting patterns on the dorsal surface of adults and how they found the differences originally. They also add some facts about where they are located and how that can help with their difference in patterns. One of the critique of the article is the lack of randomization. When conducting this experiment the experimenters used a specific DNA sequence to identify and characterize the species boundaries. Without randomization, the experiment could fall into a biased category making the research from the experiment not as strong and problematic free as it could be. Moving to the articles hypothesis which was to find out which of the two species in the Himantura Leoparda should keep the name based on the spotting patterns and the determine the nucleotide synapomorphies in the partial COI gene sequence that distinguish species within the H. uarnak species complex.
 
@@ -169,11 +167,16 @@ The paragraph on the ethics
 When it comes to ethics, this might be the most important part of your experiment because this can give you the green light to continue and actually begin your project or the red light which will stop any progress. The three players that could possibly be affected are the players aka the rays, the water in which we are taking samples from, and our team as researchers. One of the biggest ethical guidelines is to always have minimal risk when it comes to any of the players. Minimal risk is any harm or discomfort that study participants may endure is not more severe than what they may encounter in their regular lives or during standard physical or psychological examinations. This also goes into making sure that the risk is absolutely the very lowest level of risk that could possibly happen while also going again with your study. To start with the key players, the rays, we are not physically hurting them but we will gently mark and tag to keep track of them, therefore we could possibly be messing up their routine which might cause psychological problems as messing with a routine can cause instability. We will be getting our research through a multitude of things such as onboard observer programs, market survey, interviews with fishers in the area, and DNA barcoding of species samples. We plan to ask the fisherman at the specific port questions like what level of fishing pressure is there in the Bay of bengals and are there any cultural or economic factors that may influence the fishing pressure on elasmobranch populations in the Bay of Bengal? Observing is one of the safer ways to research without breaking ethical guidelines and that is one of the reasons why we will do it. After the observing and surveys/interviews, statistical techniques can be used to assess variations in species diversity and composition across different fishing grounds or seasons which will better reflect the truth. 
 
 Works Cited
+Chiang, V. C. (2023). PSYC201 Chapter 3 [PowerPoint Slides]. Blackboard. https://umb.umassonline.net/webapps/blackboard/execute/content/file?cmd=view&content_id=_2430868_1&course_id=_54890_1&framesetWrapped=true
 Chin, A., & Kyne, P. M. (n.d.). Effects of drought on avian community structure - wiley online library. Global Change Library . Retrieved May 4, 2023, from https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2486.2009.02120.x
 Borsa, P., & Durand, J. D. (2013, March 21). Himantura Tutul sp. nov. (Myliobatoidei: Dasyatidae), a new ocellated whipray from the tropical indo-west pacific, described from its cytochrome-oxidase I gene sequence. Comptes Rendus Biologies. Retrieved May 4, 2023, from https://www.sciencedirect.com/science/article/pii/S163106911300005X 
 Haque, A. B., Cavanagh, R. D., & Seddon, N. (n.d.). Evaluating artisanal fishing of globally threatened sharks and rays in the Bay of Bengal, Bangladesh. PLOS ONE. Retrieved May 4, 2023, from https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0256146 
 Moore, A., & Jamaluddin, J. (n.d.). Sharks and rays (Chondrichthyes) around Banggai - ProQuest. ProQuest. Retrieved May 4, 2023, from https://www.proquest.com/docview/2525730081?pq-origsite=gscholar&fromopenview=true
 Vaudo, J. J., & Heithaus, M. R. (2013, April 12). Microhabitat selection by Marine mesoconsumers in a thermally heterogeneous habitat: Behavioral thermoregulation or avoiding predation risk? PLOS ONE. Retrieved May 4, 2023, from https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0061907
+Leopard Whipray (Himantura Leoparda). iNaturalist. (n.d.). Retrieved May 2, 2023, from https://www.inaturalist.org/taxa/188808-Himantura-leoparda 
+Leopard Whipray. Georgia Aquarium. (2022, November 16). Retrieved May 2, 2023, from https://www.georgiaaquarium.org/animal/leopard-whipray/ 
+ 
+
 
  
 
